@@ -1,0 +1,59 @@
+body{
+   margin:50px;
+}
+
+
+.letter{
+	position:relative;
+	width:200px;
+	height:260px;
+border:1px solid black;
+display: inline-block;
+}
+
+
+.i-stem,
+.l-stem,
+.e-stem,
+.f-stem
+{
+	width:50px;
+	height:260px;
+	background: black;
+	position: absolute;
+	left:50px;
+}
+
+.l-foot,
+.e-foot
+{
+width:100px;
+	height:50px;
+	background: black;
+	position: absolute;
+	left:100px;
+	top:210px;
+}
+.f-bar,
+.e-bar
+{
+ width:150px;
+	height:50px;
+	background: black;
+	position: absolute;
+	left:50px;
+	top:0px;
+}
+
+.f-arm,
+.e-arm
+{
+
+width:100px;
+	height:50px;
+	background: black;
+	position: absolute;
+	left:50px;
+	top:100px;
+
+}
